@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import java.math.BigInteger;
-import java.security.SecureRandom;
+import java.util.Random;
 
 @RestController
 public class PrimeController {
